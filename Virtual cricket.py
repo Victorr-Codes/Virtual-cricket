@@ -1,11 +1,6 @@
 import random
 
-print("\n\t\t\t\t\t\t\t\tWELCOME TO VIRTUAL CRICKET")
-print("\t\t\t\t\t\tNOTE - PLEASE WRITE THE RUNS FROM 1,2,3,4,5,6 THESE ONLY\n\n")
-x = 0
-while(x<1):
-    toss = input("Heads or Tails?\n")
-    lst2 = ["heads" ,"tails"]
+print("\n\t\t\t\t\" ,"tails"]
     lst = [1,2,3,4,5,6]
     lst3 = ["Bat" , "Ball"]
     a = random.choice(lst2)
@@ -15,9 +10,7 @@ while(x<1):
         bob = input("Bat or Ball?\n")
         if bob == "bat":
             sum1 = 0
-            while(1):
-                b = random.choice(lst)
-                userBat = int(input("Enter Runs\n"))
+            while(1):(input("Enter Runs\n"))
                 
                 if userBat!=b:
                     sum1 = sum1 + userBat
@@ -32,10 +25,7 @@ while(x<1):
                     while(1):
                         b = random.choice(lst)
                         userBat = int(input("Enter the run which may match to  computer's run\n"))
-                        
-                        if userBat!=b:
-                            sum = sum + b
-                            print(f"Current run of computer {sum}")
+                        puter {sum}")
                             if sum1<sum:
                                 print("\nYOU LOSE THE MATCH")
                                 break
@@ -52,7 +42,7 @@ while(x<1):
             sum4 = 0
             while(1):
                 b = random.choice(lst)
-                userbowl = int(input("Enter the run which may match to computer's run\n"))
+                userbowl = int(input("Enter thewhich may match to computer's run\n"))
 
                 if b != userbowl:
                     sum4 = sum4 + b
@@ -77,9 +67,7 @@ while(x<1):
                         else:
                             print("Out")
                             print(f"You made {sum5} runs")
-                            print("\nYOU LOSE THE MATCH")
-                            break
-                    break
+break
 
 
     else:
@@ -104,7 +92,7 @@ while(x<1):
                     sum3 = 0
                     while(1):
                         b = random.choice(lst)
-                        userBall = int(input("Enter runs\n"))
+                        userBall = int(inputruns\n"))
                 
                         if userBall!=b:
                             sum3 = sum3 + userBall
@@ -126,8 +114,7 @@ while(x<1):
                 userBat = int(input("Enter Runs\n"))
                 
                 if userBat!=b:
-                    sum6 = sum6 + userBat
-                    print(f"Current run {sum6}")
+                    sum6 = sum6 + userBatm6}")
                     continue
                 
                 else:
@@ -149,8 +136,5 @@ while(x<1):
 
                         else:
                             print("Computer is out")
-                            print(f"Computer made {sum7} runs")
-                            break
-                    break
-
-    x = x+1
+                            print(f"Comp
+ 
